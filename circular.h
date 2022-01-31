@@ -7,7 +7,7 @@
 template <typename T>
 class CircularList : public List<T> {  
     private:
-        Node<T>* head;
+        Node<T>* head;//sentinel
         int nodes; 
     public:
         CircularList() : List<T>() { }

@@ -11,9 +11,9 @@ class DoubleList : public List<T> {
         Node<T>* tail;
         int nodes;
     public:
-        DoublyList() : List<T>() {}
+        DoubleList() : List<T>() {}
 
-        ~DoublyList(){ 
+        ~DoubleList(){ 
          	// TODO            
         }
         

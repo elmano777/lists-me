@@ -5,14 +5,14 @@
 
 // TODO: Implement all methods
 template <typename T>
-class List {
-    
+class List {    
     public:
         List() : head(nullptr), tail(nullptr), nodes(0) {};
-        ~List(){
+        virtual ~List(){
             // TODO            
         };
-
+        
+        //Contrato
         virtual T front() = 0;
         virtual T back() = 0;
         virtual void push_front(T) = 0;
