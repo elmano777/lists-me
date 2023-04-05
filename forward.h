@@ -7,7 +7,25 @@
 template <typename T>
 class ForwardList : public List<T> {
     private:
-        Node<T>* head;
+        struct Node {
+            T data;
+            Node* next;
+
+            Node(){ 
+                // TODO
+            }
+
+            Node(T value){
+                // TODO
+            }
+
+            void killSelf(){
+                // TODO      
+            }    
+        };
+
+    private:
+        Node* head;
         int nodes;
 
     public:
