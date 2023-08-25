@@ -1,7 +1,8 @@
 # Integrantes: ____   _____
 
 # Lists
-Implementar todas las funciones en los .h
+Implementar las tres versiones de listas enlazadas: Forward Linked List, Doubly Linked List & circular doubly linked list (with a sentinel).
+Cada tipo de lista debe heredar desde la clase abstracta List. 
 
 **T front();** // Retorna el elemento al comienzo
 
