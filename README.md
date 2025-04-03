@@ -1,7 +1,7 @@
 # Integrantes: ____   _____
 
 # Lists
-Implementar las tres versiones de listas enlazadas: Forward Linked List, Doubly Linked List & circular doubly linked list (with a sentinel).
+Implementar las tres versiones de listas enlazadas: Forward Linked List, Doubly Linked List & Circular Doubly Linked List (con centinela).
 Cada tipo de lista debe heredar desde la clase abstracta List. 
 
 **T front();** // Retorna el elemento al comienzo
