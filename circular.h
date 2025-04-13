@@ -5,14 +5,14 @@
 
 // TODO: Implement all methods
 template <typename T>
-class CircularList : public List<T> {  
+class CircularList : public List<T> {
     private:
         struct Node {
             T data;
             Node* next;
             Node* prev;
 
-            Node(){ 
+            Node(){
                 // TODO
             }
 
@@ -21,20 +21,20 @@ class CircularList : public List<T> {
             }
 
             void killSelf(){
-                // TODO      
-            }    
+                // TODO
+            }
         };
 
     private:
         Node* head;//sentinel
-        int nodes; 
+        int nodes;
 
     public:
         CircularList() : List<T>() { }
 
         ~CircularList(){
            // TODO
-        }       
+        }
 
          T front(){
             throw ("sin definir");
@@ -83,7 +83,7 @@ class CircularList : public List<T> {
         void clear(){
             throw ("sin definir");
         }
-        
+
         void sort(){
             throw ("sin definir");
         }
