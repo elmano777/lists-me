@@ -6,10 +6,10 @@
 
 using namespace std;
 
-void test(List<int>* list){   
-    cout<<"*** Testing "<<list->name()<<"  *******"<<endl; 
+void test(List<int>* list){
+    cout<<"*** Testing "<<list->name()<<"  *******"<<endl;
     ASSERT(list->is_empty() == true, "The function is_empty is not working");
-    ASSERT(list->size() == 0, "The function size is not working");    
+    ASSERT(list->size() == 0, "The function size is not working");
     list->push_front(5);
     list->push_front(10);
     ASSERT(list->pop_front() == 10, "The function push_front/pop_front is not working");
@@ -19,7 +19,7 @@ void test(List<int>* list){
     list->push_back(30);
     list->push_back(8);
     list->insert(12, 2);
-    ASSERT((*list)[2] == 12, "The operator [] is not working");    
+    ASSERT((*list)[2] == 12, "The operator [] is not working");
     list->push_back(10);
     list->push_front(3);
     ASSERT(list->is_sorted() == false, "The function is_sorted is not working");
@@ -31,7 +31,7 @@ void test(List<int>* list){
 }
 
 int main()
-{    
+{
     List<int> *forward = new ForwardList<int>();
     test(forward);
 

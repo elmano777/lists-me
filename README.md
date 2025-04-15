@@ -1,14 +1,14 @@
-# Integrantes: ____   _____
+# Integrantes: Rolando Diaz Jara
 
 # Lists
 Implementar las tres versiones de listas enlazadas: Forward Linked List, Doubly Linked List & Circular Doubly Linked List (con centinela).
-Cada tipo de lista debe heredar desde la clase abstracta List. 
+Cada tipo de lista debe heredar desde la clase abstracta List.
 
 **T front();** // Retorna el elemento al comienzo
 
 **T back();** // Retorna el elemento al final
 
-**void push_front(T);** // Agrega un elemento al comienzo 
+**void push_front(T);** // Agrega un elemento al comienzo
 
 **void push_back(T);** // Agrega un elemento al final
 
@@ -24,7 +24,7 @@ Cada tipo de lista debe heredar desde la clase abstracta List.
 
 **bool is_empty();** // Retorna si la lista está vacía o no
 
-**int size();** // Retorna el tamaño de la lista 
+**int size();** // Retorna el tamaño de la lista
 
 **void sort();** // Ordena los elementos de la lista
 
